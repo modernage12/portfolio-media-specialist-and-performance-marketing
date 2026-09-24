@@ -16,36 +16,14 @@ real constraints and data. The framework forces that grounding every time.
 ## How it is structured
 
 ```mermaid
-flowchart TB
-    subgraph K[Knowledge]
-      R[Strategy library<br/>9 guides from deep research]
-      O[Operational guides<br/>creative, copy, CRO, analytics, tracking]
-      P[Cross-client patterns<br/>26 case patterns + 10 method patterns]
-    end
-    subgraph C[Client memory]
-      S[State page, read in full<br/>fixed constraints first]
-      D[Diary, findings register,<br/>creative library: searched]
-    end
-    subgraph A[AI agents: skills]
-      A1[Campaign strategist]
-      A2[Client intake]
-      A3[Tracking operator]
-      A4[Landing pages]
-    end
-    subgraph T[Connectors]
-      M[Meta Ads]
-      W[Windsor.ai]
-      G[GTM, GA4, Stape]
-    end
-    subgraph H[Rules and guardrails]
-      DR[Decision register]
-      HK[Hooks: confirmation before production writes]
-      EV[Regression tests from real failures]
-    end
-    A --> K
-    A --> C
-    A --> T
-    H --> A
+flowchart LR
+    ME[Me<br/>rules and decisions] --> AG[AI agents<br/>strategist, intake,<br/>tracking, landing]
+    AG --> KB[Knowledge<br/>9 strategy guides,<br/>36 patterns]
+    AG --> CM[Client memory<br/>state page first,<br/>diary, findings]
+    AG --> CN[Connectors<br/>Meta Ads, Windsor.ai,<br/>GTM, GA4, Stape]
+    GR[Guardrails<br/>decision register,<br/>hooks, tests] -.-> AG
+    AG --> PR[Proposal with<br/>constraints and sources]
+    PR --> ME
 ```
 
 - **Strategy library**: nine guides built from deep-research reports I ran and reviewed:
