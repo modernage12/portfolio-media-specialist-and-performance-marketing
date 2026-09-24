@@ -1,10 +1,4 @@
-# Lorenzo Caputo · Portfolio
-
-**A performance marketer who treats every funnel like a product:** I define what success really
-is, make it measurable, and iterate on real data, not on platform vanity metrics.
-
-Freelance since April 2025 · Meta Ads · server-side tracking (GTM, Stape, Meta CAPI, GA4) ·
-landing pages · SQL and Power BI · AI-assisted workflows (Claude Code, MCP)
+# Media and Performance Marketing Case Studies and Portfolio
 
 ---
 
@@ -26,11 +20,3 @@ landing pages · SQL and Power BI · AI-assisted workflows (Claude Code, MCP)
 - **"Real leads"** are unique people who submitted the sign-up form, reconciled across the form's
   data, a server-side backup and server logs. They are not paying members: lead-to-member
   conversion is not tracked, and I say so rather than guess it.
-
-## About
-
-Italian, based in Italy, working remotely. M.Sc. in Trade and Consumer Marketing (University of
-Parma). Languages: Italian (native), English (C1).
-Certifications: Google Ads Search (2026), Google Analytics (2025), HackerRank SQL (2025).
-
-Contact: [linkedin.com/in/lorenzo-caputo1202](https://www.linkedin.com/in/lorenzo-caputo1202)
