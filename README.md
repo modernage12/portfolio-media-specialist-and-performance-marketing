@@ -17,18 +17,6 @@ landing pages · SQL and Power BI · AI-assisted workflows (Claude Code, MCP)
 | 3 | [My AI-assisted framework for freelance marketing](case-studies/03-ai-framework-for-freelance-marketing.md) | Research-based strategy library, a memory for every client, AI agents for campaigns, intake and tracking, guardrails on production, tests built from real failures | 9 strategy guides, 36 patterns, 6 tests from client work |
 | 4 | [A funnel built from scratch (2025-26)](case-studies/04-funnel-from-scratch.md) | Landing page, form, booking, tracking and ads set up alone | 57 leads on ~€950, ~€17 blended cost per lead |
 
-## Data projects (public repositories)
-
-- [Marketing Campaign Analysis](https://github.com/modernage12/marketing-campaign-analysis):
-  CRM data cleaned in MySQL (2,240 to 2,205 records), segmentation with CTEs and window
-  functions, 3-page Power BI dashboard with DAX and budget-allocation recommendations.
-- [Data Professionals Survey](https://github.com/modernage12/powerbi-data-professionals-survey):
-  a 630-respondent survey cleaned in Power Query and turned into a Power BI dashboard.
-- [World Layoffs: data cleaning](https://github.com/modernage12/sql-data-cleaning-world-layoffs)
-  and [exploratory analysis](https://github.com/modernage12/sql-eda-world-layoffs) in MySQL.
-- [Bike Buyers](https://github.com/modernage12/excel-full-project): cleaning, segmentation and an
-  interactive dashboard in Excel.
-
 ## How to read the numbers
 
 - **Client data is anonymized**: no client name, location, brand assets, account IDs or personal
